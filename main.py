@@ -5,7 +5,7 @@ import time
 import time
 #Informacion sobre mi trivia : Tema
 print(
-    Fore.WHITE + Back.BLUE +
+    Fore.WHITE + Back.YELLOW +
     "Bienvenido a mi trivia sobre la historia del Perú \n Pondremos a prueba que tanto sabes de nuestro pais tu puedes, suerte..!!! "
     + Back.RESET)
 
