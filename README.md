@@ -1,5 +1,6 @@
 Trivia - Silabuz
-Bienvenidos a mi TRIVIA en PYTHON
+
+!!!!!!!!Bienvenidos a mi TRIVIA en PYTHON
 INSTRUCCIONES
 Para correr la trivia se debe ejecutar "main.py" o del mismo replit
 
