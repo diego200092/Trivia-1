@@ -74,9 +74,10 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   print(YELLOW + "c. 1902" + RESET)
   print(YELLOW + "d. 1821" + RESET)
   
+  
   respuesta_2 = input(BLUE + " \nElige una respuesta: " + RESET)
   
-  while respuesta_2 not in ("a", "b", "c", "d"):
+  while respuesta_2 not in ("a", "b", "c", "d" , "x"):
       respuesta_2 = input(RED + "Respuesta no valida, intentalo de nuevo: " +
                           RESET)
   
@@ -87,6 +88,8 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
       print("Incorrecto", nombre)
   elif respuesta_2 == "c":
       print("Incorrecto", nombre + RESET)
+    elif respuesta_2 == "x":
+      print("Respuesta secreta", nombre + RESET)
   else:
       puntaje += 10
       print(GREEN + "Muy bien", nombre, "!!!" + RESET)
@@ -143,5 +146,6 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
     print()
       
   #Pregunta 4
+
   
   #Pregunta 5
