@@ -88,7 +88,7 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
       print("Incorrecto", nombre)
   elif respuesta_2 == "c":
       print("Incorrecto", nombre + RESET)
-    elif respuesta_2 == "x":
+  elif respuesta_2 == "x":
       print("Respuesta secreta", nombre + RESET)
   else:
       puntaje += 10
